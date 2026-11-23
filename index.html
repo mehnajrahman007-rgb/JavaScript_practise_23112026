@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practise</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+
+    <!-- 2. Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg px-4 bg-body-tertiary">
+  <div class="container-fluid navsection">
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-fork-knife" viewBox="0 0 16 16">
+  <path d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z"/>
+</svg>
+    <a class="navbar-brand text-danger fw-bold" href="#">Muhtasim Restuarent</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        
+         <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="/login.html">Login</a>
+        </li>
+       
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+    </header>
+    <main>
+        <!-- banner section -->
+         <section>
+            <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOa_6lmbQOaNm44UywEWRJB7xfhHpzJAzG_FuNkpLpxQ&s=10" class="d-block w-100" alt="Starfood">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAhzyKMpU8YWZFpweSjB_OFmlfRcSb5kFUFU0nBP7EQ&s=10" class="d-block w-100" alt="topsellfood">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSHzx5pVzT6_PccuqXxDCcvgr6uRJxRzukbMgxv6EfAw&s=10" class="d-block w-100" alt="fresh food">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+         </section>
+         <!-- About Section -->
+         <section>
+          <div style="text-align: center; margin-top: 60px;">
+            <h2 style="color:brown; font-weight: bold;">About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquam? Vero, sunt laborum unde accusantium at voluptate? Facere, voluptate natus. Dolor animi molestias nostrum minus quas voluptas ea cum vel?</p>
+          </div>
+          <div class="card mb-3 my-5">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmAsOttRTidJdSo407pwmwL1pwrlSwmP8ymVoOF6PRqA&s=10" class="img-fluid rounded-start" alt="Restuarent">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Muhtasim Restuarent</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       <button class="btn btn-danger my-4">Learn More</button>
+      </div>
+    </div>
+  </div>
+</div>
+         </section>
+
+
+         <!-- Accordion Section -->
+          <section><div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+      Why Choose Us?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><strong>We Serve Quality Food With Love!</strong>
+        <br>
+
+At our restaurant, we believe that good food brings people together. We provide delicious food, friendly service and a comfortable environment to make every visit special.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Where is your restaurant located?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Our restaurant is located in Dhaka, Bangladesh. Please contact us for the exact location and directions.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        What types of food do you serve?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">We serve a wide variety of delicious and freshly prepared foods to satisfy everyone's taste. Our menu includes juicy burgers, cheesy pizzas, creamy pasta, crispy fried chicken, flavourful rice dishes, fresh salads and tasty desserts. We also offer a selection of refreshing drinks to make your meal even more enjoyable. Whether you are visiting with family, friends or loved ones, we have something special for everyone. Our goal is to provide delicious food with great taste, quality and satisfaction</div>
+    </div>
+  </div>
+</div></section>
+
+<hr>
+<hr>
+<!-- Customer Review Card Section -->
+ <section><div style="text-align: center; margin-top: 60px;">
+       <h3 style="color: green">What Our Customers Say</h3>
+        <p><b>Our happy customers share their experiences with us.</b></p>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG_w6kYMSkIzXO9p45Sz-korvKitUAqz9iMtBQ6QO5g&s=10" class="card-img-top" alt="Photo of Sarah Ahmed">
+    <div class="card-body">
+      <h5 class="card-title">Sarah Ahmed</h5>
+      <p class="card-text">"The food was delicious and the service was excellent. I really enjoyed the atmosphere!"</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqUVu7hHtle43fgKwFgNadsEkRbVzslgSUb-kqj0NH4Q&s=10" alt="Photo of Mike Stack">
+    <div class="card-body">
+      <h5 class="card-title">Mike Stack</h5>
+      <p class="card-text">"Amazing food quality and friendly staff. I would love to visit again!"</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjWWttcp3wvVGOk15th9hGvznSyQJyv0ET_xeo_q_nDA&s=10" class="card-img-top" alt="Photo of Jack SMith">
+    <div class="card-body">
+      <h5 class="card-title">Jack Smith</h5>
+      <p class="card-text">"Beautiful restaurant atmosphere and friendly staff. I will visit again!"</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<br>
+
+
+<!-- Special Invitation Section -->
+ <section style="
+ background-color: rgb(230, 122, 114);
+  color: white;
+    text-align: center;
+    padding: 15px 20px;
+   margin: 10px 5% 5px;
+    border-radius: 12px;">
+<div class="invitation-content">
+
+        <h3>Come & Enjoy Delicious Food!</h3>
+
+        <p>
+            Join us with your family and friends.
+            Enjoy delicious meals, friendly service
+            and a wonderful dining experience.
+            <br>
+            We are always ready to serve you with
+            fresh food and a warm welcome.
+        </p>
+<button class="btn btn-success my-4">Order Now</button>
+        </a>
+
+    </div>
+
+ </section>
+<br>
+<!-- Pagination -->
+ <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="blog.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="about.html">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+
+    </main>
+
+    <footer>
+      <section class="bg-dark text-white text-center pt-4 pb-3">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+          <h5>Company Info</h5>
+                        <p>Welcome to our company!</p>
+                        <p>We provide excellent services to our customers.</p></div>
+
+<div class="col-md-4 mb-3"> <h5>Contact Us</h5>
+                        <p>Email: info@mycompany.com</p>
+                        <p>Phone: (123) 456-7890</p></div>
+ <div class="col-md-4 mb-3">
+  <h5>Follow Us</h5>
+                        <p><a href="https://facebook.com" class="text-white">Facebook</a></p>
+                        <p><a href="https://twitter.com" class="text-white">Twitter</a></p>
+                        <p><a href="https://instagram.com" class="text-white">Instagram</a></p>
+                        <p><a href="https://linkedin.com" class="text-white">LinkedIn</a></p>
+                      </div>  
+          </div>
+                              
+ 
+        </div>
+        <hr>
+        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-fork-knife" viewBox="0 0 16 16">
+  <path d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z"/>
+</svg>
+
+ <p>&copy; Muhtasim Restuarent.</p>
+            <p>All rights reserved.</p>
+
+        
+      </section>
+       
+
+    </footer>
+<!-- Java Script add -->
+ <script src="script.js"></script>
+    <!-- bootstrap js link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.min.js" integrity="sha384-89aa4glufciPv46aKltztWQEmk+Tu9W2RhzXr6VcnUUEub7F8+06RcL2RYLCOHUq" crossorigin="anonymous"></script>
+    
+</body>
+</html>
