@@ -4,4 +4,4 @@
 // const
 
 var introducing= "Hello! This is Mehnaj"
-console.log(introducing)git init
+console.log(introducing)
